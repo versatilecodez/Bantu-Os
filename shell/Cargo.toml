@@ -5,6 +5,10 @@ edition = "2021"
 description = "Bantu-OS AI Shell - Rust REPL for tool dispatch"
 authors = ["Bantu-OS Team"]
 
+[lib]
+name = "bantu_shell"
+path = "src/lib.rs"
+
 [[bin]]
 name = "bantu"
 path = "src/main.rs"
